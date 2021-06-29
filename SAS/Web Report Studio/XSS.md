@@ -1,7 +1,7 @@
 # CVE-2021-#####
 Writeup for Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4
 
-### :computer: XSS on SAS® Web Report Studio 4.4 :computer:
+### :computer: Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4 :computer:
 
 \[1.\] Login to your system > Click "New Report"
 <br>
@@ -19,12 +19,12 @@ Writeup for Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4
 <br><br>
 **payload** : "></option></select><marquee/onstart=confirm(1337)>
 <br><br>
-<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/4-%20edit%20payload.png" title="4">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/3%20-%20insert%20payload%20xss.png" title="4">
 <br><br>
-[5.] Click "Forward" to forward the request and turn the intercept OFF > An Image will shown with a Text(CLICK-ME) for redirect
+[5.] Click "Forward" to forward the request and turn the intercept OFF > XSS will prompt
 <br>
-<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/5-%20html%20injection%20success.png" title="5">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/4-%20xss%20prompt.png" title="5">
 <br><br>
 
   
-  Cheers! :)
+Cheers! :)
