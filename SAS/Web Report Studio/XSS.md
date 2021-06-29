@@ -26,5 +26,5 @@ Writeup for Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/4-%20xss%20prompt.png" title="5">
 <br><br>
 
-  
+
 Cheers! :)
