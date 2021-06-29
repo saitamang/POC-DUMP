@@ -1,5 +1,5 @@
 # CVE-2021-#####
-Writeup for HTML Injection on SAS® Web Report Studio 4.4
+Writeup for HTML Injection on Create New Section in SAS® Web Report Studio 4.4
 
 ### :computer: HTML Injection on SAS® Web Report Studio 4.4 :computer:
 
