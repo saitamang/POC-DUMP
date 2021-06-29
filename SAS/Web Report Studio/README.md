@@ -3,35 +3,27 @@ Writeup for Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4
 
 ### :computer: XSS on SAS® Web Report Studio 4.4 :computer:
 
-\[1.\] Login to your system > On "Resource" tab > "Browse"
+\[1.\] Login to your system > Click "New Report"
 <br>
-<img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/1-Browse.png" title="1">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/1-%20create%20report.png" title="1">
 <br><br>
-[2.] Choose a "Platform"
+[2.] Under "Table of Contents" on the left side, click the drop down and choose "Insert a New Section ..."
 <br>
-<img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/2-Choose%20platform.png" title="2">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/2-%20insert%20new%20section.png" title="2">
 <br><br>
-[3.] Click "Inventory" tab > Under "Servers" tab click "New..."
+[3.] New Window will pop-up to create a new section, Open your proxy and turn intercept "ON"
 <br>
-<img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/3-inventory-new-server.png" title="3">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/3-%20intercept%20proxy.png" title="3">
 <br><br>
-[4.] Under "General Properties" tab on "Name" field , put the payload(below) > Filled up other information and click "Ok" button 
+[4.] Click "OK" button > under "sectionName" parameter, insert payload(below) 
 <br><br>
-**payload** : XSS"><marquee onstart=confirm('XSS')>@SAITAMANG
+**payload** : "></option></select><img/src=http://192.168.0.1/a.png><a/href=http://192.168.0.1>CLICK-ME</a>
 <br><br>
 <img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/4-add%20new%20server%20with%20xss%20payload.png" title="4">
 <br><br>
-[5.] Successfully saved the payload
+[5.] Click "Forward" to forward the request and turn the intercept OFF > An Image will shown with a Text(CLICK-ME) for redirect
 <br>
-<img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/5-xss%20successfully%20saved.png" title="5">
-<br><br>
-[6.] Then scroll down to bottom under "Configuration Properties" tab > click "Edit" button
-<br>
-<img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/6-scroll%20bottom%20press%20edit.png" title="6">
-<br><br>
-[7.] Then the payload will be executed
-<br>
-<img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/7-xss%20prompt.png" title="7">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/5-%20html%20injection%20success.png" title="5">
 <br><br>
 
   
