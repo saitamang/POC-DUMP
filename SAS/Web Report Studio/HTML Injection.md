@@ -17,7 +17,7 @@ Writeup for HTML Injection on SAS® Web Report Studio 4.4
 <br><br>
 [4.] Click "OK" button > under "sectionName" parameter, insert payload(below) 
 <br><br>
-**payload** : "></option></select><img/src=http://192.168.0.1/a.png><a/href=http://192.168.0.1>CLICK-ME</a>
+**payload** : `"></option></select><img/src=http://192.168.0.1/a.png><a/href=http://192.168.0.1>CLICK-ME</a>`
 <br><br>
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/4-%20edit%20payload.png" title="4">
 <br><br>
