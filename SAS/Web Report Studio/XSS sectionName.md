@@ -1,5 +1,5 @@
 # CVE-2021-#####
-Writeup for Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4
+Writeup for Stored Cross-Site Scripting(XSS) at "sectionName" on SAS® Web Report Studio 4.4
 
 ### :computer: Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4 :computer:
 
