@@ -19,7 +19,7 @@ Writeup for Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4
 <br><br>
 **payload** : "></option></select><img/src=http://192.168.0.1/a.png><a/href=http://192.168.0.1>CLICK-ME</a>
 <br><br>
-<img src="https://raw.githubusercontent.com/saitamang/CVE-2021-35475/main/img/4-add%20new%20server%20with%20xss%20payload.png" title="4">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/4-%20edit%20payload.png" title="4">
 <br><br>
 [5.] Click "Forward" to forward the request and turn the intercept OFF > An Image will shown with a Text(CLICK-ME) for redirect
 <br>
