@@ -1,7 +1,7 @@
 # CVE-2021-35960
 Writeup for Stored Cross-Site Scripting(XSS) and HTML Injection at "sectionName" on SAS® Web Report Studio 4.4
 
-### :computer: Stored Cross-Site Scripting(XSS) on SAS® Web Report Studio 4.4 :computer:
+### :computer: Stored Cross-Site Scripting(XSS) and HTML Injection on SAS® Web Report Studio 4.4 :computer:
 
 \[1.\] Login to your system > Click "New Report"
 <br>
