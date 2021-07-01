@@ -35,5 +35,5 @@ Stored Cross-Site Scripting(XSS) on SAS® Environment Manager 2.5
 <img src="https://github.com/saitamang/CVE-2021-35475/blob/main/img/7-xss%20prompt.png" title="7">
 <br><br>
 
-  
+
 Cheers! :)
