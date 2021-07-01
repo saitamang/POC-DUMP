@@ -40,4 +40,5 @@ Writeup for Stored Cross-Site Scripting(XSS) and HTML Injection at "sectionName"
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/5-%20html%20injection%20success.png" title="5">
 <br><br>
 
+
 Cheers! :)
