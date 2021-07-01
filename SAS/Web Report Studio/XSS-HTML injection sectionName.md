@@ -15,6 +15,7 @@ Writeup for Stored Cross-Site Scripting(XSS) and HTML Injection at "sectionName"
 <br>
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/3-%20intercept%20proxy.png" title="3">
 <br><br>
+<h3>XSS</h3>
 [4.] Click "OK" button > under "sectionName" parameter, insert payload(below) 
 <br><br>
 **payload** : `"></option></select><marquee/onstart=confirm(1337)>`
@@ -25,6 +26,16 @@ Writeup for Stored Cross-Site Scripting(XSS) and HTML Injection at "sectionName"
 <br>
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/4-%20xss%20prompt.png" title="5">
 <br><br>
-
+<h3>HTML INJECTION</h3>
+[4.] Click "OK" button > under "sectionName" parameter, insert payload(below) 
+<br><br>
+**payload** : `"></option></select><img/src=http://192.168.0.1/a.png><a/href=http://192.168.0.1>CLICK-ME</a>`
+<br><br>
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/4-%20edit%20payload.png" title="4">
+<br><br>
+[5.] Click "Forward" to forward the request and turn the intercept OFF > An Image will shown with a Text(CLICK-ME) for redirect
+<br>
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Web%20Report%20Studio/img/5-%20html%20injection%20success.png" title="5">
+<br><br>
 
 Cheers! :)
