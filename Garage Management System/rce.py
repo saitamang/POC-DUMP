@@ -76,6 +76,4 @@ if __name__ == "__main__":
     except IndexError:
         print("[-] Usage %s <ip>" % sys.argv[0])
         print("[-] Example: %s 192.168.100.x" % sys.argv[0])
-        print("[-] Kindly setup your netcat listernet to port 1234")
-        print("nc -lvp 1234")
     sys.exit(-1)
