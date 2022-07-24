@@ -17,3 +17,7 @@ Payload --> 'or 1=1#
 ## Checking length of column
 
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/Hospital%20Information%20System/img/length-column.png?raw=true" title="length">
+
+##You may download script automation to get the database name for your reference to learn!
+
+Download [here](https://github.com/saitamang/POC-DUMP/blob/main/Hospital%20Information%20System/sqli.py)
