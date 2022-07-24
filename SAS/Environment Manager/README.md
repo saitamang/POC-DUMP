@@ -36,4 +36,4 @@ Stored Cross-Site Scripting(XSS) on SAS® Environment Manager 2.5
 <br><br>
 
 
-Cheers! :)
+Cheers and enjoy! :)
