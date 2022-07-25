@@ -1,4 +1,4 @@
-## Garage Management System Remote Code Execution via File Upload
+## Garage Management System Remote Code Execution (RCE) via File Upload
 
 Exploit Author: saitamang
 
