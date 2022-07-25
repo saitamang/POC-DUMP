@@ -3,7 +3,7 @@ Writeup for [CVE-2021-35475](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 Stored Cross-Site Scripting(XSS) on SAS® Environment Manager 2.5
 
 ### :computer: XSS on SAS® Environment Manager 2.5 :computer:
-
+<!---
 \[1.\] Login to your system > On "Resource" tab > "Browse"
 <br>
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/SAS/Environment%20Manager/img/1-Browse.png" title="1">
@@ -37,3 +37,5 @@ Stored Cross-Site Scripting(XSS) on SAS® Environment Manager 2.5
 
 
 Cheers and enjoy! :)
+
+-->
