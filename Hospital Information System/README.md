@@ -1,6 +1,6 @@
 ## Hospital Information System
 
-Other refrence --> 'https://packetstormsecurity.com/files/167803/Hospital-Information-System-1.0-SQL-Injection.html'
+Other refrence --> https://packetstormsecurity.com/files/167803/Hospital-Information-System-1.0-SQL-Injection.html
 
 From the login page, at the email form, the attacker may fill anything inside. On the password form, the attacker may used below payload and click login to successfully login as Admin functionality.
 
