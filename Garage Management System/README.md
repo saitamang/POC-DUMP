@@ -14,3 +14,5 @@
 
 <br><br>The automation script can be downloaded [here](https://github.com/saitamang/POC-DUMP/blob/main/Garage%20Management%20System/rce.py)
 
+Other Reference --> https://packetstormsecurity.com/files/167802/Garage-Management-System-1.0-Shell-Upload.html
+
