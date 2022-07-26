@@ -4,9 +4,9 @@
 
 <p># Exploit Author: saitamang
 
-<p># Vendor Homepage: https://www.sourcecodester.com
+<!-- <p># Vendor Homepage: https://www.sourcecodester.com
 
-<p># Software Link: https://www.sourcecodester.com/sites/default/files/download/mayuri_k/garage.zip
+<p># Software Link: https://www.sourcecodester.com/sites/default/files/download/mayuri_k/garage.zip -->
 
 <p># Version: 1.0
 
