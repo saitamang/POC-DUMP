@@ -2,7 +2,7 @@
 
 Loan Management System suffers from severals vulnerabilities which is SQL Injection and Stored Cross Site Scripting (XSS).
 
-## 1. SQL Injeection
+## 1. SQL Injection
 
 The attack vector for the SQL Injection happened at the login page. The login can be bypass using the boolean payload below to gain access as Admin as the highest privileges.
 
