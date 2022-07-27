@@ -8,7 +8,7 @@ The attack vector for the SQL Injection happened at the login page. The login ca
 
 `Payload --> 'or 2=2#`
 
-The automation can be access [here](https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/sqli-getdb.py).
+The python script to get the database name from SQL Injection Vulnerability can be access [here](https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/sqli-getdb.py).
 
 ## 2. Stored Cross Site Scripting
 
