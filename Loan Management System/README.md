@@ -8,6 +8,8 @@ The attack vector for the SQL Injection happened at the login page. The login ca
 
 `Payload --> 'or 2=2#`
 
+The automation can be access [here](https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/sqli-getdb.py).
+
 ## 2. Stored Cross Site Scripting
 
 There are several functions and parameter affected as below:
@@ -28,5 +30,3 @@ save_borrower.php
 </code></pre>
 
 The payload use to inject is `"/><svg/onload=alert(document.cookie)>`
-
-p/s : The python script will be release soon to get the database name fro SQL Injection Vulnerability
