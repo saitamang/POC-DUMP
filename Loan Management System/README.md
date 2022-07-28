@@ -10,7 +10,7 @@ The attack vector for the SQL Injection happened at the login page. The login ca
 
 The python script to get the database name from SQL Injection Vulnerability can be access [here](https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/sqli-getdb.py).
 
-<img src="[https://www.hackthebox.eu/storage/avatars/712990507bcd9118705f55ffbf24554a.png](https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/img/script.png?raw=true)" title="hack">
+<img src="[https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/img/script.png?raw=true]" title="hack">
 
 
 ## 2. Stored Cross Site Scripting
