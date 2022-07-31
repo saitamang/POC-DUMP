@@ -2,4 +2,4 @@
 
 Payload used --> 'or sleep(5)#
 
-<img src="https://www.hackthebox.eu/storage/avatars/712990507bcd9118705f55ffbf24554a.png" title="me">
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/Crime%20Management%20System/img/sqli%20login.png?raw=true" title="me">
