@@ -1,4 +1,4 @@
-# Exploit Title: Loan Management System - Stored XSS on several parameters
+# Exploit Title: Loan Management System - SQL Injection on login page
 # Date: 28/07/2022
 # Exploit Author: saitamang
 # Vendor Homepage: sourcecodester
