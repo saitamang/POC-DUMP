@@ -2,4 +2,4 @@
 
 Payload used --> 'or sleep(5)#
 
-<img src="https://github.com/saitamang/POC-DUMP/blob/main/Crime%20Management%20System/img/sqli%20login.png?raw=true" title="me">
+<img src="https://raw.githubusercontent.com/saitamang/POC-DUMP/main/Crime%20Management%20System/img/sqli.png" title="me">
