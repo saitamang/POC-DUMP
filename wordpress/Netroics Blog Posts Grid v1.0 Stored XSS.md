@@ -21,3 +21,15 @@ Further information can be preview from github below:
 https://github.com/saitamang/POC-DUMP/blob/main/wordpress/Netroics%20Blog%20Posts%20Grid%20v1.0%20Stored%20XSS.md
 
 ```
+# Step to Reproduce
+1 - Login as an Editor and create a new Netroics Post from the Plugin. Insert payload as mentioned above and saved as Draft.
+<img src=https://github.com/saitamang/POC-DUMP/blob/main/wordpress/img/1-editor%20create%20post%20save%20as%20draft.png>
+
+2- Login as other Editor or Admin can preview the Draft Post
+<img src=https://github.com/saitamang/POC-DUMP/blob/main/wordpress/img/2-other%20users%20including%20admin%20can%20view%20draft.png>
+
+3- Click the link for preview
+<img scr=https://github.com/saitamang/POC-DUMP/blob/main/wordpress/img/3-click%20the%20link%20or%20preview.png>
+
+4- XSS will prommpt
+<img src=https://github.com/saitamang/POC-DUMP/blob/main/wordpress/img/4-xss%20prompt%20when%20open%20link.png>
