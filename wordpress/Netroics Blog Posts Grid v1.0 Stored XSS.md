@@ -31,5 +31,5 @@ https://github.com/saitamang/POC-DUMP/blob/main/wordpress/Netroics%20Blog%20Post
 3- Click the link for preview
 <img scr=https://github.com/saitamang/POC-DUMP/blob/main/wordpress/img/3-click%20the%20link%20or%20preview.png>
 
-4- XSS will prommpt
+4- XSS will prompt
 <img src=https://github.com/saitamang/POC-DUMP/blob/main/wordpress/img/4-xss%20prompt%20when%20open%20link.png>
