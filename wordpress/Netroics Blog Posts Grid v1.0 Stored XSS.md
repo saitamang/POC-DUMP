@@ -18,6 +18,6 @@ payload --> user s1"><img src=x onerror=alert(document.cookie)>.gif
 The draft post can be viewed using other Editor or Admin account and Stored XSS will be triggered.
 
 Further information can be preview from github below:
-
+https://github.com/saitamang/POC-DUMP/blob/main/wordpress/Netroics%20Blog%20Posts%20Grid%20v1.0%20Stored%20XSS.md
 
 ```
