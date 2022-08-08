@@ -1,7 +1,7 @@
 ```
 # Exploit Title: Stored XSS in post_title parameter in WordPress Plugin "Netroics Blog Posts Grid" v1.0
 # Date: 08/08/2022
-# Exploit Author: saitamang
+# Exploit Author: saitamang , syad , yunaranyancat
 # Vendor Homepage: wordpress.org
 # Software Link: https://downloads.wordpress.org/plugin/netroics-blog-posts-grid.zip
 # Version: 1.0
