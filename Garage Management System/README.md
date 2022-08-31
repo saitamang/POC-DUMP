@@ -16,3 +16,13 @@ Writeup for [PacketStorm](https://packetstormsecurity.com/files/167802/Garage-Ma
 <p># Tested on: Centos 7 + MySQL
 
 <br>The automation script can be downloaded [here](https://github.com/saitamang/POC-DUMP/blob/main/Garage%20Management%20System/rce.py)
+
+#CVE-2022-36668
+
+## Garage Management System 1.0 is vulnerable to Stored Cross Site (XSS)
+
+Create: From "Parts" > "Add Parts" > Filled all the form and Intercept using burpsuite > edit 3 parameters "productName" ,"quantity","rate" with payload below.
+Edit: After creating parts using normal input or access from "Parts" > "Manage Parts" > edit the parts an intercept the request using burpsuite > edit 3 parameters "editProductName","editQuantity","editRate" with payload below.
+
+Payload --> "><svg/onload=alert(document.cookie)>
+
