@@ -10,6 +10,7 @@ Current CVEs and counting:
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/PayMoney">CVE-2022-37137</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/README.md">CVE-2022-37138</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/README.md">CVE-2022-37139</a>
+<br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/PayMoney">CVE-2022-37140</a>
 
 ### Still updating walkthrough
 
