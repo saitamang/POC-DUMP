@@ -1,3 +1,5 @@
+# CVE-2022-36669
+
 ## Hospital Information System
 
 Other refrence --> https://packetstormsecurity.com/files/167803/Hospital-Information-System-1.0-SQL-Injection.html
