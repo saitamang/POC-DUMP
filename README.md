@@ -2,11 +2,12 @@
 Writeup or scripting for any interesting bugs/vulnerability
 
 Current CVEs and counting:
-<br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/SAS/Environment%20Manager">CVE-2021-3547</a>
+<br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/SAS/Environment%20Manager">CVE-2021-35475</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/Centreon">CVE-2022-36194</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/Garage%20Management%20System">CVE-2022-36667</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/Garage%20Management%20System">CVE-2022-36668</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/Hospital%20Information%20System">CVE-2022-36669</a>
+<br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/PayMoney">CVE-2022-37137</a>
 
 ### Still updating walkthrough
 
