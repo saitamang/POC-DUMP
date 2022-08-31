@@ -1,4 +1,4 @@
-# CVE-2022-36667
+# CVE-2022-36667 #
 Writeup for [PacketStorm](https://packetstormsecurity.com/files/167802/Garage-Management-System-1.0-Shell-Upload.html)
 
 ## Garage Management System Remote Code Execution (RCE) via File Upload
@@ -17,7 +17,7 @@ Writeup for [PacketStorm](https://packetstormsecurity.com/files/167802/Garage-Ma
 
 <br>The automation script can be downloaded [here](https://github.com/saitamang/POC-DUMP/blob/main/Garage%20Management%20System/rce.py)
 
-#CVE-2022-36668
+# CVE-2022-36668 #
 
 ## Garage Management System 1.0 is vulnerable to Stored Cross Site (XSS)
 
