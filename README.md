@@ -8,6 +8,8 @@ Current CVEs and counting:
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/Garage%20Management%20System">CVE-2022-36668</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/Hospital%20Information%20System">CVE-2022-36669</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/PayMoney">CVE-2022-37137</a>
+<br>• <a href="https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/README.md">CVE-2022-37138</a>
+<br>• <a href="https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/README.md">CVE-2022-37139</a>
 
 ### Still updating walkthrough
 
