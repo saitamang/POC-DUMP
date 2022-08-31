@@ -15,13 +15,17 @@ The XSS then will prompt after that or can be access from the view ticket functi
 ## Attack Vector
 1. The user first must created a ticket.
 <img src="https://raw.githubusercontent.com/saitamang/POC-DUMP/main/PayMoney/img/xss1/1.png">
-<img src="https://github.com/saitamang/POC-DUMP/blob/main/PayMoney/img/xss1/2.png?raw=true">
 
 2. Then on the replying the ticket under "Message" field with "description" parameter, inject the payload below to gain Stored Cross-Site Scripting(XSS).
 ```
 "><svg/onload=alert(document.cookie)>
 ```
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/PayMoney/img/xss1/2.png?raw=true">
 
-The XSS will prompt or can be access from the view ticket function
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/PayMoney/img/xss1/3.png?raw=true">
+
+3. The XSS will prompt or can be access from the view ticket function
+
+<img src="https://github.com/saitamang/POC-DUMP/blob/main/PayMoney/img/xss1/4.png?raw=true">
 
 
