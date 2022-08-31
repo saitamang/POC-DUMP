@@ -17,7 +17,7 @@ Writeup for [PacketStorm](https://packetstormsecurity.com/files/167802/Garage-Ma
 
 <br>The automation script can be downloaded [here](https://github.com/saitamang/POC-DUMP/blob/main/Garage%20Management%20System/rce.py)
 
-<code>
+```
 import requests, subprocess, string, sys, warnings, time, concurrent.futures
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 warnings.simplefilter('ignore',InsecureRequestWarning)
@@ -97,5 +97,5 @@ if __name__ == "__main__":
         print("[-] Usage %s <ip>" % sys.argv[0])
         print("[-] Example: %s 192.168.100.x" % sys.argv[0])
     sys.exit(-1)
-</code>
+```
 
