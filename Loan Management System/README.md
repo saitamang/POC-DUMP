@@ -2,6 +2,8 @@
 
 Loan Management System suffers from severals vulnerabilities which is SQL Injection and Stored Cross Site Scripting (XSS).
 
+# CVE-2022-37138
+
 ## 1. SQL Injection
 
 The attack vector for the SQL Injection happened at the login page. The login can be bypass using the boolean payload below to gain access as Admin as the highest privileges.
@@ -12,7 +14,7 @@ The python script to get the database name from SQL Injection Vulnerability can 
 
 <img src="https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/img/script.png?raw=true" title="hack">
 
-
+# CVE-2022-37139
 ## 2. Stored Cross Site Scripting
 
 There are several functions and parameter affected as below:
