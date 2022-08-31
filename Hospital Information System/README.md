@@ -1,7 +1,4 @@
 # CVE-2022-36669
-
-## Hospital Information System
-
 ```
 # Exploit Title: Hospital Information System - SQL Injection via login page
 # Date: 25/07/2022
