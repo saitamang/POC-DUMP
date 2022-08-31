@@ -5,7 +5,7 @@
 # Exploit Author: saitamang
 # Vendor Homepage: https://paymoney.techvill.org/
 # Software Link: https://paymoney.techvill.org/
-# Version: 1.0
+# Version: 3.3
 ```
 
 ## Description
