@@ -13,10 +13,14 @@ The XSS can be obtain from injecting under "Message" field with "description" pa
 The XSS then will prompt after that or can be access from the view ticket function.
 
 ## Attack Vector
-The user first must created a ticket. Then on the replying the ticket under "Message" field with "description" parameter, inject the payload below to gain Stored Cross-Site Scripting(XSS).
+1. The user first must created a ticket.
+<img src="https://raw.githubusercontent.com/saitamang/POC-DUMP/main/PayMoney/img/xss1/1.png">
+
+2. Then on the replying the ticket under "Message" field with "description" parameter, inject the payload below to gain Stored Cross-Site Scripting(XSS).
 ```
 "><svg/onload=alert(document.cookie)>
 ```
+
 The XSS will prompt or can be access from the view ticket function
 
 
