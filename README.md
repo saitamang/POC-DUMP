@@ -12,6 +12,4 @@ Current CVEs and counting:
 <br>• <a href="https://github.com/saitamang/POC-DUMP/blob/main/Loan%20Management%20System/README.md">CVE-2022-37139</a>
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/PayMoney">CVE-2022-37140</a>
 
-### Still updating walkthrough
-
 <img src="https://www.hackthebox.eu/storage/avatars/712990507bcd9118705f55ffbf24554a.png" title="me">
