@@ -21,10 +21,9 @@ https://drive.google.com/file/d/1sfuiGp_c0AqBth55aR5tEdmVNka_BG0x/view?usp=shari
 ```
 
 # Image PoC
-
 <img src="https://lh3.googleusercontent.com/drive-viewer/AJc5JmRVrISc9-r8v7PBLiduVGQo-jPUrGvWQIUeOLG3vM8Vxz3IHRpoXi645b6Y0ZSBiMSpG8-Dch8=w1920-h937" title="pimcore">
 
 # Line of fixes
 • <a href="https://github.com/pimcore/pimcore/commit/0508c491c6a4f3d119ec8dcf444e52ff25028c36">Here</a>
 
-The report also can be seen <a href="https://huntr.dev/bounties/31ac0506-ae38-4128-a46d-71d5d079f8b7/">here</a>.
+### The report also can be seen <a href="https://huntr.dev/bounties/31ac0506-ae38-4128-a46d-71d5d079f8b7/">here</a>.
