@@ -29,3 +29,11 @@ https://drive.google.com/file/d/1sWsIJsENvwhig5notCKWh2C6_h-MvBN0/view?usp=shari
 # Impact
 
 This vulnerability allows attackers to hijack the user's current session, steal relevant information, deface website or direct users to malicious websites and allows attacker to use for further exploitation.
+
+# Reference
+
+More information can be found below:
+
+- <a href="https://huntr.dev/bounties/bcb6ee68-1452-4fdb-932a-f1031d10984f/">huntr</a>
+- <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-3231">NVD</a>
+- <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3231">MITRE</a>
