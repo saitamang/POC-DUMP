@@ -1,5 +1,5 @@
 # POC-DUMP
-Writeup or scripting for any interesting bugs/vulnerability
+Writeup or scripting for any interesting bugs/vulnerabilities that I found.
 
 Current CVEs and counting:
 <br>• <a href="https://github.com/saitamang/POC-DUMP/tree/main/SAS/Environment%20Manager">CVE-2021-35475</a>
